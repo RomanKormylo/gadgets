@@ -1,0 +1,57 @@
+body {
+    background-image: url('bridges.jpg');
+    background-repeat: no-repeat;
+    z-index:-1;
+    background-color: dodgerblue;
+}
+
+header{
+    color:white;
+    text-align: center;
+    font-family:Lobster;
+    font-size:32px;
+    padding-bottom: 3%;
+}
+footer{
+    color:white;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2%;
+    background-color:cornflowerblue;
+    text-align: center;
+}
+#imgs>img{
+    width: 300px;
+    height: 300px;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.zoom:hover{
+    position:relative;
+    width: 600px;
+    height: 600px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+#random>h1{
+    font-family:Lobster;
+    color: ghostwhite;
+    font-size: 25px;
+    padding-top: 5%;
+}
+
+.block{
+    font-family:"Times New Roman";
+    color:ghostwhite;
+    font-size:16px;
+}
+
+#empty{
+    padding-top: 2%;
+}
+#imgs>img{
+    margin-left: 5%;
+    margin-top: 4%;
+}
